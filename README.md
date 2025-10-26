@@ -15,7 +15,8 @@ After compiling, you will run
 `./producer & ./consumer &`
 
 ## **Output**
-After running in the terminal, it should display ![Program Output](Screenshot 2025-10-26 105826.png)
+After running in the terminal, it should display
+![Program Output]("Screenshot 2025-10-26 105826.png")
 
 ## **Files**
 - producer.c  - puts item in buffer
