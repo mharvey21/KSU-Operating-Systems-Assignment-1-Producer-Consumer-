@@ -7,15 +7,18 @@ The **producer** will put the item in the buffer and the **consumer** will take 
 
 ## **Compile**
 To compile, you will enter
+
 `gcc producer.c -pthread -lrt -o producer`
 `gcc consumer.c -pthread -lrt -o consumer`
 
 ## **Run**
 After compiling, you will run 
+
 `./producer & ./consumer &`
 
 ## **Output**
 After running in the terminal, it should display
+
 ![Program Output](Screenshot%202025-10-26%20105826.png)
 
 ## **Files**
