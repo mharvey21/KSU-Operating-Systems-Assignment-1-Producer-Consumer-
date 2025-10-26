@@ -6,7 +6,20 @@ This program shows how a **Producer** and **Consumer** interact with eachother b
 The **producer** will put the item in the buffer and the **consumer** will take it out the item
 
 ## **Compile**
-To compile, you will enter...
+To compile, you will enter
 `gcc producer.c -pthread -lrt -o producer`
 `gcc consumer.c -pthread -lrt -o consumer`
 
+## **Run**
+After compiling, you will run 
+`./producer & ./consumer &`
+
+## **Output**
+After running in the terminal, it should display
+
+## **Files**
+- producer.c  - puts item in buffer
+- consumer.c  - takes item from buffer
+- shared.c    - structure and shared resources
+- Makefile    - compiles and runs programs
+- README.md   - describes the use and background of entire program
