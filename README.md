@@ -1,2 +1,12 @@
 # KSU-Operating-Systems-Assignment-1-Producer-Consumer-
 Assignment 1 - Producer - Consumer
+
+## **Program Description**
+This program shows how a **Producer** and **Consumer** interact with eachother by accessing the **Semaphores** and **Shared Memory**
+The **producer** will put the item in the buffer and the **consumer** will take it out the item
+
+## **Compile**
+To compile, you will enter...
+`gcc producer.c -pthread -lrt -o producer`
+`gcc consumer.c -pthread -lrt -o consumer`
+
